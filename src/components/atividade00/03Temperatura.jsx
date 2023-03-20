@@ -16,7 +16,7 @@ const Temperatura = () => {
            <h3>25F em C é {FtoC(25)}</h3>
            <h3>25K em C é {KtoCF(25).celsius}</h3> 
            <h3>25K em F é {KtoCF(25).fahrenheit}</h3> 
-           <h2>Teste com git hub</h2>
+           <h2>Teste com git hub 2 </h2>
         </div>
     )
 
