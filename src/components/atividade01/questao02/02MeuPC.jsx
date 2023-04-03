@@ -1,0 +1,5 @@
+const PlacaMae = () =>{
+    
+}
+
+export {PlacaMae}

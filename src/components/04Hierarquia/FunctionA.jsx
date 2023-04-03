@@ -3,7 +3,7 @@ import FunctionB from "./FunctionB"
 const FunctionA = ({sobrenome}) => {
     return (
         <div>
-            <FunctionB nome = "Edinaldo" sobrenome = {sobrenome}/>
+            <FunctionB nome = "Ednaldo" sobrenome = {sobrenome}/>
         </div>
     )
 }
