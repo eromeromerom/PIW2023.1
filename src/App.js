@@ -8,6 +8,8 @@
 // import {FunctionA} from './components/04Hierarquia/FunctionA';
 import Pai from './components/atividade01/questao01/01Pai';
 import * as PC from './components/atividade01/questao02/02MeuPC'
+import ClassA from './components/atividade02/ClassContext';
+import FunctionContextA from './components/atividade02/FunctionContextA';
 function App() {
   
   return (
@@ -15,7 +17,9 @@ function App() {
       {/* <MeusDados nome="Heron" curso="Design Digital" uni="Universidade Federal do Ceará"/> */}
       {/* <Temperatura /> */}
       {/* <FunctionA sobrenome = "Pereira"/> */}
-      <Pai></Pai>
+      {/* <Pai></Pai> */}
+      <ClassA />
+      <FunctionContextA />
     </div>
   );
 }
