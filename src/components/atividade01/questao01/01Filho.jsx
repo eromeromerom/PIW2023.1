@@ -1,4 +1,7 @@
-const Filho = ({peso, altura}) => {
+import "../../../css/Atividade00.css"
+// colocar o nome props não é o ideal, mas vai deixar meu código mais explícito
+const Filho = (props) => {
+    const {peso, altura} = props
     // const IMC = ({peso,altura}) => {
     //     return peso/(altura*altura)
     // }
