@@ -8,10 +8,13 @@
 // import {FunctionA} from './components/04Hierarquia/FunctionA';
 // import Pai from './components/atividade01/questao01/01Pai';
 // import * as PC from './components/atividade01/questao02/02MeuPC'
-import ClassA from './components/atividade02/ClassContext';
-import FunctionContextA from './components/atividade02/FunctionContextA';
-import { World, Arena, Enemy, Hero } from './components/atividade01/questao03/03Batalha';
-import baki from './img/baki.jpg'
+// import ClassA from './components/atividade02/ClassContext';
+// import FunctionContextA from './components/atividade02/FunctionContextA';
+// import { World, Arena, Enemy, Hero } from './components/atividade01/questao03/03Batalha';
+// import baki from './img/baki.jpg'
+import PokemonAxios from "./components/10Axios/PokemonAxios";
+
+
 function App() {
 
   return (
@@ -26,12 +29,12 @@ function App() {
       {/* <ClassA />
       <FunctionContextA /> */}
 
-      <World>
+      {/* <World>
         <Arena />
       </World>
 
-      <Arena />
-   
+      <Arena /> */}
+      <PokemonAxios />
 
     </div>
   );
