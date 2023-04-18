@@ -15,10 +15,12 @@ const PokemonAxios = () => {
             axios.get(`http://pokeapi.co/api/v2/pokemon/${id}`)
                 .then(
                     (response) => {
+                        console.log(response)
                         setNome(response.data.name)
                         setSrcImagemCostas(response.data.sprites.back_default)
-                        setSrcImagemFrente(response.data.sprotes.front_default)
+                        setSrcImagemFrente(response.data.sprites.front_default)
                         setLoading(false)
+                        
                     }
                 ).catch((error) => console.log(error))
         }
@@ -62,11 +64,18 @@ const PokemonAxios = () => {
                 </tr>
                 <tr>
                     <td>
-                        <img width={"300px"} src={srcImagemFrente} alt={nome} />
-                        {/* https://raw.githubusercontent.com/Codelessly/FlutterLoadingGIFs/master/packages/cupertino_activity_indicator_selective.gif imagem de loading*/}
+                        <img 
+                            width={"300px"} 
+                            src={srcImagemFrente} 
+                            alt={nome} 
+                        />
+                        
                     </td>
                     <td>
-                        <img width={"300px"} src={srcImagemCostas} alt={nome} />
+                        <img width={"300px"}
+                        src={srcImagemCostas}
+                        alt={nome}
+                        />
                     </td>
                 </tr>
             </>
