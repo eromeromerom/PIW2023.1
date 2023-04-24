@@ -12,8 +12,9 @@
 // import FunctionContextA from './components/atividade02/FunctionContextA';
 // import { World, Arena, Enemy, Hero } from './components/atividade01/questao03/03Batalha';
 // import baki from './img/baki.jpg'
-import PokemonAxios from "./components/10Axios/PokemonAxios";
-
+// import PokemonAxios from "./components/10Axios/PokemonAxios";
+// import TelaPrincial from "./components/11redux/v1/TelaPrincipal";
+import MeuIndex from "./components/11redux/v2/MeuIndex";
 
 function App() {
 
@@ -34,8 +35,10 @@ function App() {
       </World>
 
       <Arena /> */}
-      <PokemonAxios />
-
+      {/* <PokemonAxios /> */}
+      {/* <TelaPrincial /> */}
+      <MeuIndex />
+      
     </div>
   );
 }
