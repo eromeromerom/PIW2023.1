@@ -17,8 +17,7 @@ import FunctionContextD from "./atividades/atividade02/questao01/FunctionContext
 // import baki from './img/baki.jpg'
 // import PokemonAxios from "./components/10Axios/PokemonAxios";
 // import TelaPrincial from "./components/11redux/v1/TelaPrincipal";
-// import MeuIndex from "./components/11redux/v2/MeuIndex"
-
+import MeuIndex from "./components/11redux/v2/MeuIndex";
 
 function App() {
 
@@ -41,7 +40,7 @@ function App() {
       <Arena /> */}
       {/* <PokemonAxios /> */}
       {/* <TelaPrincial /> */}
-      {/* <MeuIndex /> */}
+      <MeuIndex />
       
     </div>
   );
