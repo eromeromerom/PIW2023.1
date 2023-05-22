@@ -8,7 +8,7 @@ const FunctionContextC = () => {
                 (value) => {
                     return (
                         <div>
-                            <h1 style={{ color: value }}>
+                            <h1 style={{ backgroundColor: value.bkgC }}>
                                 Contexto C
                             </h1>
                             <FunctionContextD />
