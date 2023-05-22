@@ -15,6 +15,7 @@
 // import PokemonAxios from "./components/10Axios/PokemonAxios";
 // import TelaPrincial from "./components/11redux/v1/TelaPrincipal";
 import MeuIndex from "./components/11redux/v2/MeuIndex";
+import Signin from "./components/13MUI/01Signin/Signin";
 
 function App() {
 
@@ -37,8 +38,10 @@ function App() {
       <Arena /> */}
       {/* <PokemonAxios /> */}
       {/* <TelaPrincial /> */}
-      <MeuIndex />
+      {/* <MeuIndex /> */}
       
+      <Signin></Signin>
+
     </div>
   );
 }
